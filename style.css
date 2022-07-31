@@ -16,9 +16,11 @@ body {
     background-color: hsl(217, 54%, 11%);
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 
 .container>.card {
     background-color: hsl(216, 50%, 16%);
@@ -113,4 +115,16 @@ div .heading {
 .creator-info p span:hover {
     color: hsl(178, 100%, 50%);
     cursor: pointer;
+}
+
+.footer {
+    position: absolute;
+    bottom: 5px;
+}
+
+.footer a {
+    color: hsl(178, 100%, 50%);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
 }
